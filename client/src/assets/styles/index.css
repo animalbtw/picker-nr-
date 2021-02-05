@@ -1,0 +1,29 @@
+* {
+
+}
+
+@font-face {
+    font-family: 'TrajanPro-Bold';
+    src: local('TrajanPro-Bold'), url("../fonts/TrajanPro-Bold.otf") format('opentype');
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #7c7878;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2) inset;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bebdbd;
+    border-radius: 10px;
+    border: 3px solid #7c7c7c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a9a9a9;
+}
